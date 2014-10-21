@@ -1,6 +1,4 @@
 //http://thesassway.com/beginner/how-to-structure-a-sass-project
-$color-base: #ff0000;
+@import 'modules/_all';
 
-body {
-    color: $color-base;
-}
+@import 'partials/_base';

@@ -6,7 +6,7 @@ define([
   var HomeModel = Backbone.Model.extend({
 
     defaults : {
-        title : 'AMEX'
+        title : 'HOME'
     }
 
   });
