@@ -16,6 +16,7 @@ define([
 
     render: function(){
       var homeTitle = this.model.get('title');
+      document.title = homeTitle;
       var homeData = {
         title: homeTitle
       }
